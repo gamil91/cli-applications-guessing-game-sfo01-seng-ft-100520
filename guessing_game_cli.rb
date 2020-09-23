@@ -12,6 +12,5 @@ def run_guessing_game
     else
       p "Sorry! The computer guessed #{number}"
     end
-binding.pry
+
 end
-binding.pry 
