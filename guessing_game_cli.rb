@@ -4,7 +4,7 @@ def run_guessing_game
   number = rand(6) + 1 
   puts "Guess a number between 1 and 6!"
   input = gets.chomp.to_i   
-binding.pry
+
     if input == number
       p "You guessed the correct number!"
     elsif input == "exit"
@@ -14,6 +14,4 @@ binding.pry
     end
 
 end
-
-#Prompts the user to guess their own number between 1 and 6
-#Capture user input from the command line
+binding.pry 
